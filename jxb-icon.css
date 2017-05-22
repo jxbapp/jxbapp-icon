@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'jxb-icon';
-  src:  url('fonts/jxb-icon.eot?ecsg4b');
-  src:  url('fonts/jxb-icon.eot?ecsg4b#iefix') format('embedded-opentype'),
-    url('fonts/jxb-icon.ttf?ecsg4b') format('truetype'),
-    url('fonts/jxb-icon.woff?ecsg4b') format('woff'),
-    url('fonts/jxb-icon.svg?ecsg4b#jxb-icon') format('svg');
+  src:  url('fonts/jxb-icon.eot?oc7dud');
+  src:  url('fonts/jxb-icon.eot?oc7dud#iefix') format('embedded-opentype'),
+    url('fonts/jxb-icon.ttf?oc7dud') format('truetype'),
+    url('fonts/jxb-icon.woff?oc7dud') format('woff'),
+    url('fonts/jxb-icon.svg?oc7dud#jxb-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-iphone-solid:before {
+  content: "\e9a1";
+}
 .icon-compass-circle-solid:before {
   content: "\e9a0";
 }
@@ -359,6 +362,7 @@
 }
 .icon-comment:before {
   content: "\e930";
+  color: #000;
 }
 .icon-content:before {
   content: "\e931";
@@ -510,4 +514,3 @@
 .icon-rmb:before {
   content: "\e988";
 }
-
