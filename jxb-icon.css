@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'jxb-icon';
-  src:  url('fonts/jxb-icon.eot?oc7dud');
-  src:  url('fonts/jxb-icon.eot?oc7dud#iefix') format('embedded-opentype'),
-    url('fonts/jxb-icon.ttf?oc7dud') format('truetype'),
-    url('fonts/jxb-icon.woff?oc7dud') format('woff'),
-    url('fonts/jxb-icon.svg?oc7dud#jxb-icon') format('svg');
+  src:  url('fonts/jxb-icon.eot?cfxjta');
+  src:  url('fonts/jxb-icon.eot?cfxjta#iefix') format('embedded-opentype'),
+    url('fonts/jxb-icon.ttf?cfxjta') format('truetype'),
+    url('fonts/jxb-icon.woff?cfxjta') format('woff'),
+    url('fonts/jxb-icon.svg?cfxjta#jxb-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cup-star-online:before {
+  content: "\e9a2";
+}
 .icon-iphone-solid:before {
   content: "\e9a1";
 }
