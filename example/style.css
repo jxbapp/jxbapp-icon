@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?oc7dud');
-  src:  url('fonts/icomoon.eot?oc7dud#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?oc7dud') format('truetype'),
-    url('fonts/icomoon.woff?oc7dud') format('woff'),
-    url('fonts/icomoon.svg?oc7dud#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?fn5qw7');
+  src:  url('fonts/icomoon.eot?fn5qw7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fn5qw7') format('truetype'),
+    url('fonts/icomoon.woff?fn5qw7') format('woff'),
+    url('fonts/icomoon.svg?fn5qw7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-inbox-ku:before {
+  content: "\e9a3";
+}
+.icon-order-solid:before {
+  content: "\e9a4";
+}
+.icon-book-user:before {
+  content: "\e9a5";
+}
+.icon-saisai-logo:before {
+  content: "\e9a6";
+}
+.icon-cup-star-online:before {
+  content: "\e9a2";
+}
 .icon-iphone-solid:before {
   content: "\e9a1";
 }

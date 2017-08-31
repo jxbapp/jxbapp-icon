@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'jxb-icon';
-  src:  url('fonts/jxb-icon.eot?cfxjta');
-  src:  url('fonts/jxb-icon.eot?cfxjta#iefix') format('embedded-opentype'),
-    url('fonts/jxb-icon.ttf?cfxjta') format('truetype'),
-    url('fonts/jxb-icon.woff?cfxjta') format('woff'),
-    url('fonts/jxb-icon.svg?cfxjta#jxb-icon') format('svg');
+  src:  url('fonts/jxb-icon.eot?fn5qw7');
+  src:  url('fonts/jxb-icon.eot?fn5qw7#iefix') format('embedded-opentype'),
+    url('fonts/jxb-icon.ttf?fn5qw7') format('truetype'),
+    url('fonts/jxb-icon.woff?fn5qw7') format('woff'),
+    url('fonts/jxb-icon.svg?fn5qw7#jxb-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-inbox-ku:before {
+  content: "\e9a3";
+}
+.icon-order-solid:before {
+  content: "\e9a4";
+}
+.icon-book-user:before {
+  content: "\e9a5";
+}
+.icon-saisai-logo:before {
+  content: "\e9a6";
+}
 .icon-cup-star-online:before {
   content: "\e9a2";
 }
