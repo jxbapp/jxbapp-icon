@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'jxb-icon';
-  src:  url('fonts/jxb-icon.eot?dkzo8b');
-  src:  url('fonts/jxb-icon.eot?dkzo8b#iefix') format('embedded-opentype'),
-    url('fonts/jxb-icon.ttf?dkzo8b') format('truetype'),
-    url('fonts/jxb-icon.woff?dkzo8b') format('woff'),
-    url('fonts/jxb-icon.svg?dkzo8b#jxb-icon') format('svg');
+  src:  url('fonts/jxb-icon.eot?2qw6i4');
+  src:  url('fonts/jxb-icon.eot?2qw6i4#iefix') format('embedded-opentype'),
+    url('fonts/jxb-icon.ttf?2qw6i4') format('truetype'),
+    url('fonts/jxb-icon.woff?2qw6i4') format('woff'),
+    url('fonts/jxb-icon.svg?2qw6i4#jxb-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-crm:before {
+  content: "\e9ab";
+}
 .icon-lesson-solid:before {
   content: "\e9aa";
 }
