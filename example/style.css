@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ggbr2r');
-  src:  url('fonts/icomoon.eot?ggbr2r#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ggbr2r') format('truetype'),
-    url('fonts/icomoon.woff?ggbr2r') format('woff'),
-    url('fonts/icomoon.svg?ggbr2r#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?rigwdg');
+  src:  url('fonts/icomoon.eot?rigwdg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rigwdg') format('truetype'),
+    url('fonts/icomoon.woff?rigwdg') format('woff'),
+    url('fonts/icomoon.svg?rigwdg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-interlliphar-app:before {
+  content: "\e9ad";
+}
+.icon-interlliphar-elder:before {
+  content: "\e9ae";
+}
+.icon-interlliphar-finance:before {
+  content: "\e9af";
+}
+.icon-interlliphar-goods:before {
+  content: "\e9b0";
+}
+.icon-interlliphar-home:before {
+  content: "\e9b1";
+}
+.icon-interlliphar-lease:before {
+  content: "\e9b2";
+}
+.icon-interlliphar-person:before {
+  content: "\e9b3";
+}
+.icon-interlliphar-repair:before {
+  content: "\e9b4";
+}
+.icon-interlliphar-request:before {
+  content: "\e9b5";
+}
+.icon-interlliphar-shop:before {
+  content: "\e9b6";
+}
 .icon-interlliphar-logo:before {
   content: "\e9ac";
 }
